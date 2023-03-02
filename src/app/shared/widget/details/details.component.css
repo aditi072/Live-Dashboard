@@ -1,0 +1,47 @@
+.wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 5px;
+    margin: 3px;
+    background-color: white;
+}
+.detail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.head {
+    font-weight: 500;
+    font-size: 15px;
+}
+.charts{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin: 5px;
+    background-color: white;
+}
+.content {
+    font-weight: 500;
+    font-size: 15px;
+    color: red;
+    padding-left: 5px;
+}
+
+.graph {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+
+.highcharts-background {
+    height: 190px;
+}
